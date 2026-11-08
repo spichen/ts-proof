@@ -1,0 +1,12 @@
+[package]
+name = "ts_proof_spec"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "Specification checking for LAW and PROOF definitions"
+
+[dependencies]
+ts_proof_core.workspace = true
+ts_proof_vir.workspace = true

@@ -1,0 +1,12 @@
+[package]
+name = "ts_proof_smt"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "SMT-LIB encoding and Z3 backend"
+
+[dependencies]
+ts_proof_core.workspace = true
+ts_proof_vir.workspace = true

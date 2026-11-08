@@ -1,0 +1,57 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/ts_proof_core",
+    "crates/ts_proof_vir",
+    "crates/ts_proof_spec",
+    "crates/ts_proof_effects",
+    "crates/ts_proof_smt",
+    "crates/ts_proof_vc",
+    "crates/ts_proof_proof",
+    "crates/ts_proof_diagnostics",
+    "crates/ts_proof_adapters",
+    "crates/ts_proof_lowering",
+    "crates/ts_proof_tsrs_bridge",
+    "crates/ts_proof_frontend",
+    "crates/ts_proof_cache",
+    "crates/ts_proof_coverage",
+    "crates/ts_proof_cli",
+    "adapters/express",
+    "adapters/postgres",
+    "adapters/fetch",
+    "adapters/nestjs",
+    "adapters/prisma",
+    "adapters/typeorm",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+publish = false
+rust-version = "1.85"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive", "rc"] }
+serde_json = "1"
+sha2 = "0.10"
+ts_proof_core = { path = "crates/ts_proof_core" }
+ts_proof_vir = { path = "crates/ts_proof_vir" }
+ts_proof_spec = { path = "crates/ts_proof_spec" }
+ts_proof_effects = { path = "crates/ts_proof_effects" }
+ts_proof_smt = { path = "crates/ts_proof_smt" }
+ts_proof_vc = { path = "crates/ts_proof_vc" }
+ts_proof_proof = { path = "crates/ts_proof_proof" }
+ts_proof_diagnostics = { path = "crates/ts_proof_diagnostics" }
+ts_proof_adapters = { path = "crates/ts_proof_adapters" }
+ts_proof_lowering = { path = "crates/ts_proof_lowering" }
+ts_proof_tsrs_bridge = { path = "crates/ts_proof_tsrs_bridge" }
+ts_proof_frontend = { path = "crates/ts_proof_frontend" }
+ts_proof_cache = { path = "crates/ts_proof_cache" }
+ts_proof_coverage = { path = "crates/ts_proof_coverage" }
+ts_proof_adapter_express = { path = "adapters/express" }
+ts_proof_adapter_postgres = { path = "adapters/postgres" }
+ts_proof_adapter_fetch = { path = "adapters/fetch" }
+ts_proof_adapter_nestjs = { path = "adapters/nestjs" }
+ts_proof_adapter_prisma = { path = "adapters/prisma" }
+ts_proof_adapter_typeorm = { path = "adapters/typeorm" }

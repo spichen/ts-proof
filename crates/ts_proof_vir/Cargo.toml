@@ -1,0 +1,11 @@
+[package]
+name = "ts_proof_vir"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "Verification intermediate representation"
+
+[dependencies]
+ts_proof_core.workspace = true

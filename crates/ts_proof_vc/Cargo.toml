@@ -1,0 +1,13 @@
+[package]
+name = "ts_proof_vc"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "Verification-condition generation"
+
+[dependencies]
+ts_proof_core.workspace = true
+ts_proof_vir.workspace = true
+ts_proof_smt.workspace = true

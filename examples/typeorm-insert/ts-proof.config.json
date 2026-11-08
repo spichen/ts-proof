@@ -1,0 +1,10 @@
+{
+  "verification": {
+    "required": true,
+    "endpoints": "all",
+    "unsupported": "error",
+    "uncoveredEffects": "error",
+    "unknownProofs": "error",
+    "compilerRequired": false
+  }
+}

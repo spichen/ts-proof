@@ -1,0 +1,14 @@
+commit 3e9236361fa97a9e6c685f4833ac457ae2d8c50a
+version 0.23.0
+typescript 7.1.0-beta
+npm tsrs@0.23.0-ts7.1.0-beta
+
+The host toolchain in use while this repository was written is Rust 1.92.
+tsrs 0.23.0 requires Rust 1.99 and edition 2024, so the verifier does not
+link the tsrs crates. When verification.compilerRequired is true, the bridge
+runs `tsrs -p <dir> --noEmit` before proof and `tsrs -p <dir>` only after
+every required obligation is proved.
+
+A missing binary is VERIFY013. TS_PROOF_SKIP_TSRS=1 and
+verification.compilerRequired false are VERIFY014 trusted assumptions.
+They are not typecheck successes. --fast is not used.

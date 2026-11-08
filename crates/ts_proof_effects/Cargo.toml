@@ -1,0 +1,12 @@
+[package]
+name = "ts_proof_effects"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "Effect traces, ghost state, and trusted-boundary names"
+
+[dependencies]
+ts_proof_core.workspace = true
+ts_proof_vir.workspace = true

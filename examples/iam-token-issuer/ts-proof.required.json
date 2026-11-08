@@ -1,0 +1,12 @@
+[
+  {
+    "method": "POST",
+    "path": "/agents/:id/tokens",
+    "laws": [
+      "unauthorized_no_sign",
+      "unauthorized_no_write",
+      "identity_integrity",
+      "response_after_persistence"
+    ]
+  }
+]

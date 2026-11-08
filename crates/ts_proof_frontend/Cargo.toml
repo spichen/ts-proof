@@ -1,0 +1,30 @@
+[package]
+name = "ts_proof_frontend"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "Frontend"
+
+[dependencies]
+ts_proof_core.workspace = true
+ts_proof_vir.workspace = true
+ts_proof_spec.workspace = true
+ts_proof_effects.workspace = true
+ts_proof_smt.workspace = true
+ts_proof_vc.workspace = true
+ts_proof_proof.workspace = true
+ts_proof_diagnostics.workspace = true
+ts_proof_adapters.workspace = true
+ts_proof_lowering.workspace = true
+ts_proof_tsrs_bridge.workspace = true
+ts_proof_cache.workspace = true
+ts_proof_coverage.workspace = true
+ts_proof_adapter_express.workspace = true
+ts_proof_adapter_postgres.workspace = true
+ts_proof_adapter_fetch.workspace = true
+ts_proof_adapter_nestjs.workspace = true
+ts_proof_adapter_prisma.workspace = true
+ts_proof_adapter_typeorm.workspace = true
+serde_json.workspace = true

@@ -1,0 +1,14 @@
+{
+  "name": "@ts-proof/spec",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Verification-time markers for ts-proof laws. Importing them does not prove anything, and calling them at runtime throws.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
+}

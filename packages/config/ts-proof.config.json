@@ -1,0 +1,13 @@
+{
+  "verification": {
+    "required": true,
+    "endpoints": "all",
+    "unsupported": "error",
+    "uncoveredEffects": "error",
+    "unknownProofs": "error",
+    "compilerRequired": true
+  },
+  "solver": {
+    "timeoutMs": 10000
+  }
+}

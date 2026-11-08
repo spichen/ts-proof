@@ -1,0 +1,17 @@
+[package]
+name = "ts_proof_cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "CLI"
+
+[[bin]]
+name = "ts-proof"
+path = "src/main.rs"
+
+[dependencies]
+ts_proof_core.workspace = true
+ts_proof_frontend.workspace = true
+ts_proof_diagnostics.workspace = true

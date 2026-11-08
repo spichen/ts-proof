@@ -1,0 +1,10 @@
+{
+  "name": "ts-proof-workspace",
+  "private": true,
+  "license": "Apache-2.0",
+  "workspaces": [
+    "packages/cli",
+    "packages/spec",
+    "packages/proof"
+  ]
+}

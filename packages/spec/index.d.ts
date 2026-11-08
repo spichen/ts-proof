@@ -1,0 +1,9 @@
+export function law(...args: unknown[]): never;
+export function endpointLaw(...args: unknown[]): never;
+export function external(...args: unknown[]): never;
+export function externalNamespace(...args: unknown[]): never;
+export function int(...args: unknown[]): never;
+export function bool(...args: unknown[]): never;
+export function string(...args: unknown[]): never;
+export function implies(...args: unknown[]): never;
+export function call(...args: unknown[]): never;

@@ -1,0 +1,16 @@
+[package]
+name = "ts_proof_proof"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "Proof dependencies"
+
+[dependencies]
+ts_proof_core.workspace = true
+ts_proof_vir.workspace = true
+ts_proof_spec.workspace = true
+ts_proof_effects.workspace = true
+ts_proof_vc.workspace = true
+ts_proof_smt.workspace = true
